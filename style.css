@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+    color: #222;
+    background-color: #fdfdfd;
+    line-height: 1.6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 8%;
+    border-bottom: 1px solid #eee;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-name {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #222;
+}
+
+.nav-links a {
+    margin-left: 1.5rem;
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.nav-links a:hover {
+    color: #0066cc;
+}
+
+.hero {
+    padding: 5rem 8%;
+    text-align: center;
+    background: linear-gradient(180deg, #f8f9fa 0%, #fdfdfd 100%);
+}
+
+.hero h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 3rem 8%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0.4rem;
+    color: #222;
+}
+
+.section h3 {
+    margin: 1.2rem 0 0.6rem;
+    color: #333;
+}
+
+.section p, .section li {
+    color: #444;
+    margin-bottom: 0.8rem;
+    line-height: 1.7;
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+
+.footer {
+    text-align: center;
+    padding: 2.5rem;
+    border-top: 1px solid #eee;
+    color: #666;
+    font-size: 0.95rem;
+    background: #fafafa;
+}
+
+.footer a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
