@@ -121,6 +121,77 @@ ul {
     padding-left: 1.5rem;
 }
 
+/* Original Compositions styling */
+.composition-list {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+.composition-card {
+    list-style: none;
+    margin-left: -1.5rem;
+    margin-top: 1.5rem;
+    background: #fbfbfb;
+    border: 1px solid #eaeaea;
+    border-radius: 10px;
+    padding: 1.4rem 1.6rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+.work-header {
+    font-size: 1.05rem;
+    color: #222;
+    margin-bottom: 0.4rem;
+}
+
+.work-movements {
+    font-size: 0.88rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.work-duration {
+    margin-left: 0.4rem;
+    color: #888;
+}
+
+.work-media {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.audio-player {
+    height: 40px;
+    flex: 1;
+    min-width: 260px;
+    max-width: 440px;
+    outline: none;
+}
+
+.pdf-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    background-color: #0066cc;
+    color: #ffffff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.88rem;
+    font-weight: 500;
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: background-color 0.2s ease, transform 0.15s ease;
+}
+
+.pdf-btn:hover {
+    background-color: #004d99;
+    transform: translateY(-1px);
+}
+
 .footer {
     text-align: center;
     padding: 2.5rem;
@@ -149,5 +220,13 @@ ul {
     }
     .hero h1 {
         font-size: 1.8rem;
+    }
+    .work-media {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .audio-player {
+        width: 100%;
+        max-width: 100%;
     }
 }
