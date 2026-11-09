@@ -199,6 +199,39 @@ ul {
     transform: translateY(-1px);
 }
 
+/* Video Section */
+.work-video-section {
+    margin-top: 1.4rem;
+    padding-top: 1.2rem;
+    border-top: 1px dashed #e5e7eb;
+}
+
+.video-label {
+    font-size: 0.92rem;
+    color: #444;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 680px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #000;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+.performance-video {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    outline: none;
+    background: #000;
+}
+
 .footer {
     text-align: center;
     padding: 2.5rem;
